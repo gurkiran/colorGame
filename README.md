@@ -1,2 +1,2 @@
 # colorGame
-Feeling playful ?
+Feeling playful ? Click [here](http://gurkiran.github.io/colorGame/).
