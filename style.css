@@ -5,42 +5,60 @@ body {
 *{
     font-family: sans-serif;
 }
+
 p{
     font-size: 25px;
     margin: 0px;
     padding-bottom: 10px;
 }
-#header {    
-    color: aliceblue;   
+
+.tooltip {
+  position: absolute;
+  color: black;
+  background: white;
+  height: auto;
+  width: 40vw;
+  text-align: center;
+  display: none;
+}
+.tooltip p{
+  font-family: cursive;
+}
+.help:hover + div{
+  display: block;
+}
+#header {
+    color: aliceblue;
     width: 100%;
     background: #4d88ff;
     padding-bottom: 50px;
-    text-align: center;  
+    text-align: center;
 }
 
 #color {
-   
+
     font-size: 50px;
     padding-top: 20px;
 }
 
 
 #letsc {
-   
+
     position: absolute;
     margin-left: -100px;
     margin-top: 20px;
-    
-} 
+
+}
 
 #bar {
     background: antiquewhite;
     width: 100%;
     text-align: center;
+
 }
 
 #container {
-    
+
     max-width: 500px;
     margin: 0 auto;
 }
@@ -51,8 +69,10 @@ p{
     padding-bottom: 30%;
     float: left;
     margin: 1.5%;
-    border-radius: 40px;   
+    border-radius: 40px;
 }
+
+
 
 #bar ul {
     list-style-type: none;
@@ -60,6 +80,9 @@ p{
     padding: 0;
     overflow: hidden;
     width: 500px;
+    text-align: center;
+    display: inline-block;
+
 
 
 }
@@ -72,7 +95,7 @@ p{
 #bar ul li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
@@ -80,10 +103,8 @@ p{
     background: #4d88ff;
 }
 
-.table {
-    display: table;
-    margin: 0 auto;
-}
+
+
 #show {
     position: absolute;
     margin-top: 400px;
@@ -91,6 +112,13 @@ p{
     width: 170px;
     height: 20px;
     text-align: center;
-    color: antiquewhite;        
+    color: antiquewhite;
 }
 
+#hard {
+  background :#4d88ff;
+}
+
+#easy {
+  background: #4d88ff;
+}
